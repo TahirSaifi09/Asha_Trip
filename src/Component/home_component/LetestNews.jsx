@@ -6,8 +6,8 @@ export default function LetestNews() {
   return (
     <div className="w-full px-20 h-full bg-gray-200 max-md:px-2 max-xl:px-10 ">
       <div className="flex justify-between py-10 ">
-        <p1 className="text-3xl font-bold">Our Latest News</p1>
-        <button className="bg-blue-600 text-sm font-medium text-white shadow-2xl px-6 py-3 rounded-xl hover:bg-white hover:text-black duration-700">
+        <p1 className="text-3xl font-bold max-sm:text-2xl">Our Latest News</p1>
+        <button className="bg-blue-600 text-sm font-medium text-white shadow-2xl px-6 py-3 rounded-xl hover:bg-white hover:text-black duration-700 max-md:">
           Show More
         </button>
       </div>

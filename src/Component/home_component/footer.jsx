@@ -32,7 +32,7 @@ export default function Footer() {
         <p className="text-2xl font-medium max-xl:mt-4">Booking</p>
         <ul className="text-sm">
           <li className="pt-4 py-4">
-            <Link to="#">Book Flights</Link>
+            <Link to="#">Book Trip</Link>
           </li>
           <li>
             <Link to="#">Travel Services</Link>
@@ -75,7 +75,7 @@ export default function Footer() {
             <Link to="#">Chaurfeur Drive</Link>
           </li>
           <li>
-            <Link to="#">Flight Status</Link>
+            <Link to="#">Trip Status</Link>
           </li>
         </ul>
       </div>

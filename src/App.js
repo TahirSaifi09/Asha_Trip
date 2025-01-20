@@ -4,7 +4,8 @@ import Login from "./app/Login/Login";
 import Signup from "./app/Login/Signup";
 import TripBooking from "./Pages/TripBooking/index";
 import TourPackage from "./Pages/TourPackage";
-import PrivacyPage from "./Pages/Page/index";
+import PrivacyPage from "./Pages/Page/PrivacyPage";
+import ContactUs from "./Pages/Page/contactUs";
 function App() {
   return (
     <BrowserRouter>
@@ -15,6 +16,7 @@ function App() {
         <Route path="/TripBooking" element={<TripBooking />}/>
         <Route path="/TourPackage" element={<TourPackage/>}/>
         <Route path="/privacyPage" element={<PrivacyPage/>}/>
+        <Route path="/contact" element={<ContactUs/>}/>
       </Routes>
     </BrowserRouter>
   );

@@ -188,7 +188,7 @@ export default function Form() {
                 <p className="text-sm font-medium">From</p>
                 <div className="flex flex-col items-center">
                   <p>0h 50m</p>
-                  <img src="route-plan.png"></img>
+                  <img src="route-plan.png" alt="plan "></img>
                   <p className="text-sm font-medium">1 Stop</p>
                 </div>
                 <p className="text-sm font-medium">To</p>

@@ -317,13 +317,13 @@ export default function Blog() {
         </div>
       </div>
       {/* How to Contacct Us */}
-      <div className="p-4 shadow-xl border rounded-2xl bg-white mt-4">
+      <div className="p-4 shadow-xl border rounded-2xl bg-white mt-4 ">
         <div>
           <h1 className="text-lg font-semibold">How to Contacct Us </h1>
           <hr className="w-1/2 mt-2 mb-2"></hr>
         </div>
         <div>
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-gray-400">
             Lorem ipsum dolor sit amet consectetur. Maecenas lobortis gravida
             lobortis nulla nibh. Blandit adipiscing gravida suspendisse lacinia.
             Eleifend sed turpis aliquet non condimentum cursus ligula tincidunt

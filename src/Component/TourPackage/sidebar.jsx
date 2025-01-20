@@ -10,6 +10,15 @@ import { LuTicket } from "react-icons/lu";
 import { LuHotel } from "react-icons/lu";
 
 export default function SideBar() {
+
+  // const Visiting = [
+  //   {
+  //     photo:""
+  //   }
+  // ]
+
+
+
   return (
     <div className="bg-slate-100 ">
       <div className="px-16 py-10 flex  justify-between max-lg:flex-wrap max-sm:px-2 max-md:gap-3 max-2xl:gap-8 max-xl:px-14 max-md:px-6">

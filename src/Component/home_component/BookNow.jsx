@@ -7,9 +7,9 @@ export default function BookNow() {
             <div className="flex justify-between max-md:flex-wrap ">
               <div className="w-2/6 max-md:w-full max-md:px-2">
                 <img
-                  src="logo.png"
+                  src="logo2.png"
                   alt="logo"
-                  className="py-10 max-sm:py-4 max-md:mx-auto "
+                  className="max-md:w-1/2 max-md:mx-auto "
                 />
                 <div className="">
                   <div className="gap-4 flex flex-wrap max-md:justify-center">
