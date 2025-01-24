@@ -21,7 +21,7 @@ export default function SideBar() {
 
   return (
     <div className="bg-slate-100 ">
-      <div className="px-16 py-10 flex  justify-between max-lg:flex-wrap max-sm:px-2 max-md:gap-3 max-2xl:gap-8 max-xl:px-14 max-md:px-6">
+      <div className="px-16 py-10 flex justify-between max-lg:flex-wrap max-sm:px-2 max-md:gap-3 max-2xl:gap-8 max-xl:px-14 max-md:px-6">
         <div className="flex px-14 gap-2 py-5 shadow-lg rounded-lg bg-gray-100 max-xl:px-2 max-2xl:px-5 max-xl:w-full items-center max-xl:justify-center ">
           <div className="flex gap-4">
             <SiTicktick className="text-4xl text-center text-blue-600 " />
@@ -49,8 +49,8 @@ export default function SideBar() {
         </div>
       </div>
 
-      <div className="flex gap-10 px-16 ">
-        <div className="w-4/12 ">
+      <div className="flex flex-wrap gap-10 max-sm:gap-2 max-sm:px-2 max-md:px-4 px-16 ">
+        <div className="w-4/12 max-md:w-full ">
           <div className="bg-white shadow-xl rounded-xl ">
             <div>
               <div className="h-16 w-full px-10 rounded-t-xl bg-slate-200 text-2xl font-medium">
@@ -252,13 +252,13 @@ export default function SideBar() {
           </div>
         </div>
 
-        <div className="w-8/12">
-          <div className="flex shadow-lg gap-8 p-6 rounded-3xl bg-white">
-            <div className="flex gap-8">
+        <div className="w-8/12 max-md:w-full">
+          <div className="flex max-md:flex-wrap shadow-lg gap-8 p-6 rounded-3xl bg-white">
+            <div className="flex max-sm:flex-wrap gap-8">
               <img
                 src="Taj mahal1.jpg"
                 alt="taj mahal"
-                className="w-2/5 rounded-xl "
+                className="w-2/5 max-md:w-full rounded-xl "
               ></img>
               <div>
                 <p className="text-2xl font-medium">
@@ -311,7 +311,7 @@ export default function SideBar() {
                 </div>
               </div>
             </div>
-            <div className="w-1/2 pl-24">
+            <div className="w-1/2 max-sm:w-full pl-24 max-sm:pl-0">
               <p className="bg-slate-200 py-2 px-4 text-sm font-medium rounded-lg">
                 Pre-Registration available
               </p>
@@ -331,12 +331,12 @@ export default function SideBar() {
             </div>
           </div>
 
-          <div className="flex shadow-lg gap-8 p-6 my-6 rounded-3xl bg-white">
-            <div className="flex gap-8">
+          <div className="flex max-sm:flex-wrap shadow-lg gap-8 p-6 my-6 rounded-3xl bg-white">
+            <div className="flex max-sm:flex-wrap gap-8">
               <img
                 src="Rajasthan.jpg"
                 alt="Rajasthan"
-                className="w-2/5 rounded-xl "
+                className="w-2/5 max-sm:w-full rounded-xl "
               ></img>
               <div>
                 <p className="text-2xl font-medium">Rajasthan</p>
@@ -387,7 +387,7 @@ export default function SideBar() {
                 </div>
               </div>
             </div>
-            <div className="w-1/2 pl-24">
+            <div className="w-1/2 max-sm:w-full pl-24 max-sm:pl-0">
               <p className="bg-slate-200 py-2 px-4 text-sm font-medium rounded-lg">
                 Pre-Registration available
               </p>
@@ -407,12 +407,12 @@ export default function SideBar() {
             </div>
           </div>
 
-          <div className="flex shadow-lg gap-8 p-8 rounded-3xl bg-white">
-            <div className="flex gap-8">
+          <div className="flex max-sm:flex-wrap shadow-lg gap-8 p-8 rounded-3xl bg-white">
+            <div className="flex max-sm:flex-wrap gap-8">
               <img
                 src="Uttarakhand.jpg"
                 alt="Uttarakhand"
-                className="w-2/5 rounded-xl "
+                className="w-2/5 max-sm:w-full rounded-xl "
               ></img>
               <div>
                 <p className="text-2xl font-medium">Uttarakhand</p>
@@ -463,7 +463,7 @@ export default function SideBar() {
                 </div>
               </div>
             </div>
-            <div className="w-1/2 pl-24">
+            <div className="w-1/2 max-sm:w-full pl-24 max-sm:pl-0">
               <p className="bg-slate-200 py-2 px-4 text-sm font-medium rounded-lg">
                 Pre-Registration available
               </p>
@@ -483,12 +483,12 @@ export default function SideBar() {
             </div>
           </div>
 
-          <div className="flex shadow-lg gap-8 p-6 my-6 rounded-3xl bg-white">
-            <div className="flex gap-8">
+          <div className="flex max-sm:flex-wrap shadow-lg gap-8 p-6 my-6 rounded-3xl bg-white">
+            <div className="flex max-sm:flex-wrap gap-8">
               <img
                 src="Madhya Pradesh.jpg"
                 alt="Madhya Pradesh"
-                className="w-2/5 rounded-xl "
+                className="w-2/5 max-sm:w-full rounded-xl "
               ></img>
               <div>
                 <p className="text-2xl font-medium">Madhya Pradesh</p>
@@ -539,7 +539,7 @@ export default function SideBar() {
                 </div>
               </div>
             </div>
-            <div className="w-1/2 pl-24">
+            <div className="w-1/2 max-sm:w-full pl-24 max-sm:pl-0">
               <p className="bg-slate-200 py-2 px-4 text-sm font-medium rounded-lg">
                 Pre-Registration available
               </p>
@@ -559,12 +559,12 @@ export default function SideBar() {
             </div>
           </div>
 
-          <div className="flex shadow-lg gap-8 p-6 my-6 rounded-3xl bg-white">
-            <div className="flex gap-8">
+          <div className="flex max-sm:flex-wrap shadow-lg gap-8 p-6 my-6 rounded-3xl bg-white">
+            <div className="flex max-sm:flex-wrap gap-8">
               <img
                 src="KutubMinar.jpg"
                 alt="Qutub Minar"
-                className="w-2/5 rounded-xl "
+                className="w-2/5 max-sm:w-full rounded-xl "
               ></img>
               <div>
                 <p className="text-2xl font-medium">Qutub Minar</p>
@@ -615,7 +615,7 @@ export default function SideBar() {
                 </div>
               </div>
             </div>
-            <div className="w-1/2 pl-24">
+            <div className="w-1/2 max-sm:w-full pl-24 max-sm:pl-0">
               <p className="bg-slate-200 py-2 px-4 text-sm font-medium rounded-lg">
                 Pre-Registration available
               </p>
@@ -635,12 +635,12 @@ export default function SideBar() {
             </div>
           </div>
 
-          <div className="flex shadow-lg gap-8 p-6 my-6 rounded-3xl bg-white">
-            <div className="flex gap-8">
+          <div className="flex max-sm:flex-wrap shadow-lg gap-8 p-6 my-6 rounded-3xl bg-white">
+            <div className="flex max-sm:flex-wrap gap-8">
               <img
                 src="kerala-december.jpg"
                 alt="Kerala"
-                className="w-2/5 rounded-xl "
+                className="w-2/5 max-sm:w-full rounded-xl "
               ></img>
               <div>
                 <p className="text-2xl font-medium">Kerala</p>
@@ -691,7 +691,7 @@ export default function SideBar() {
                 </div>
               </div>
             </div>
-            <div className="w-1/2 pl-24">
+            <div className="w-1/2 max-sm:w-full pl-24 max-sm:pl-0">
               <p className="bg-slate-200 py-2 px-4 text-sm font-medium rounded-lg">
                 Pre-Registration available
               </p>
