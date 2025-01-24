@@ -79,7 +79,7 @@ export default function LetestNews() {
         <div className="w-2/4 py-4 pr-4 max-xl:w-full max-xl:pr-0">
           <div className="gap-6 max-sm:p-4 p-6 rounded-2xl flex bg-white max-lg:flex-wrap">
             <div className="w-10/12 max-lg:w-full max-xl:w-6/12">
-              <img src="cab1.jpg" alt="user-2" className="rounded-xl" />
+              <img src="cab1.jpg" alt="user-2" className="rounded-xl w-full" />
             </div>
             <div>
               <div className="flex text-sm items-center gap-3 pb-3 text-gray-500">
@@ -109,8 +109,8 @@ export default function LetestNews() {
         </div>
         <div className="w-2/4 py-4 pl-4 max-xl:w-full max-xl:pl-0">
           <div className="gap-6 max-sm:p-4 p-6 rounded-2xl flex bg-white max-lg:flex-wrap">
-            <div className="w-10/12 max-lg:w-full max-xl:w-6/12">
-              <img src="cab.jpeg" alt="blog-4" className="rounded-xl w-[90%]" />
+            <div className=" w-10/12 max-lg:w-full max-xl:w-6/12">
+              <img src="cab.jpeg" alt="blog-4" className="rounded-xl max-lg:w-full w-[90%]" />
             </div>
             <div>
               <div className="flex text-sm items-center gap-3 pb-3 text-gray-500">

@@ -9,17 +9,17 @@ export default function BookNow() {
                 <img
                   src="logo2.png"
                   alt="logo"
-                  className="max-md:w-1/2 max-md:mx-auto "
+                  className="max-md:w-1/3 max-md:mx-auto "
                 />
                 <div className="">
                   <div className="gap-4 flex flex-wrap max-md:justify-center">
-                    <div className="inline bg-gray-200 p-2">TRAVEL</div>
-                    <div className="inline bg-gray-200 p-2">All</div>
-                    <div className="inline bg-gray-200 p-2">Over</div>
-                    <div className="inline bg-gray-200 p-2 text-blue-600">
+                    <div className="inline bg-gray-200 px-2 py-1">TRAVEL</div>
+                    <div className="inline bg-gray-200 px-2 py-1">All</div>
+                    <div className="inline bg-gray-200 px-2 py-1">Over</div>
+                    <div className="inline bg-gray-200 px-2 py-1 text-blue-600">
                       The
                     </div>
-                    <div className="inline bg-gray-200 p-2 text-blue-600">
+                    <div className="inline bg-gray-200 px-2 py-1 text-blue-600">
                       India
                     </div>
                   </div>

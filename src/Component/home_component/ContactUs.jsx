@@ -1,6 +1,5 @@
 import { FaRegUserCircle } from "react-icons/fa";
 import { CiUser } from "react-icons/ci";
-
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 
@@ -39,7 +38,7 @@ export default function ContactUs() {
             </div>
           </div>
           <div className="flex gap-6 pt-4 items-center text-lg max-sm:flex-wrap ">
-            <p>Let's Connect Reach Out for More Information</p>
+            <p className="">Let's Connect Reach Out for More Information</p>
             <button className="bg-blue-600 shadow-2xl text-white px-6 py-3 xl:px-4 rounded-xl hover:bg-white hover:text-black duration-700">
               Contact us
             </button>

@@ -9,6 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
+  const [isSearch, setIsSearch] = useState(false)
 
   const links = [
     {
@@ -16,35 +17,20 @@ export default function Navbar() {
       path: "/",
     },
     {
-      page: "Trip Booking",
-      path: "/tripBooking",
-    },
-    {
       page: "Tour Package",
       path: "/tourPackage",
     },
     {
-      page: "Pages",
-      path: "",
-      isDropdown: true,
-      items: [
-        {
-          page: "Contact",
-          path: "/contact",
-        },
-        {
-          page: "Privacy Policy",
-          path: "/privacyPage",
-        },
-        {
-          page: "Login",
-          path: "/login",
-        },
-        {
-          page: "Signup",
-          path: "/signup",
-        },
-      ],
+      page:"Contact",
+      path:"/contact"
+    },
+    {
+      page:"About",
+      path:null
+    },
+    {
+      page:"News",
+      path:null
     },
   ];
 
@@ -58,13 +44,22 @@ export default function Navbar() {
 
   function handleMouseEnter(index) {
     setIsDropdownOpen(true);
-    setActiveDropdown(index)
+    setActiveDropdown(index);
   }
 
   function handleMouseLeave() {
-    setIsDropdownOpen(false)
-    setActiveDropdown(null)
+    setIsDropdownOpen(false);
+    setActiveDropdown(null);
   }
+
+  function handleSearch(){
+  if(isSearch)
+    setIsSearch(false);
+  else
+  setIsSearch(true);
+  console.log("value:", isSearch);
+}
+
 
   const location = useLocation();
   // console.log("location", location)
@@ -164,18 +159,23 @@ export default function Navbar() {
             </div>
           ))}
         </div>
-        <div className="flex items-center gap-2 text-xl">
-          <Link to="#">
-            <CiSearch className="text-3xl" />
-          </Link>
-          <a href="/login" className="hover:text-blue-600">
-            Login
-          </a>
-          <p>/</p>
-          <Link to="/signup" className="hover:text-blue-600">
-            Signup
-          </Link>
-        </div>
+        <div className="flex items-center space-x-4">
+      {/* Search Input */}
+      <input
+        type="text"
+        name="search"
+        placeholder="Search"
+        className={`outline-none px-4 h-12 bg-[#ECECF2] transition-all duration-300 ease-in-out ${
+          isSearch ? "flex" : "hidden"
+        }`}
+      />
+
+      {/* Search Icon */}
+      <CiSearch
+        onClick={handleSearch}
+        className="text-3xl cursor-pointer hover:text-gray-600"
+      />
+    </div>
       </div>
     </div>
   );
