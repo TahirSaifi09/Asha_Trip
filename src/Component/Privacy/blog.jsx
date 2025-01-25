@@ -178,7 +178,7 @@ export default function Blog() {
               lobortis nulla nibh. Blandit adipiscing gravida suspendisse
               lacinia. Eleifend sed turpis aliquet non condimentum cursus ligula
               tincidunt fusce. Egestas commodo neque mattis enim magnis mauris
-              massa. Donec id eu sapien pulvinar malesuada tempor sociis quis.
+              massa. Donec id sapien pulvinar malesuada tempor sociis quis.
             </p>
           </div>
         </div>
