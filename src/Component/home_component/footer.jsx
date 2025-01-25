@@ -80,7 +80,7 @@ export default function Footer() {
         </ul>
       </div>
       <div className="w-1/4 max-xl:w-full max-xl:mt-4 ">
-        <p className="text-2xl font-medium max-sm:mt-4">Contact Us</p>
+        <Link to="/privacyPage" className="text-2xl font-medium max-sm:mt-4 hover:text-blue-600">Privacy Policy</Link>
         <div className="flex items-center gap-3 py-2 ">
           <CiLocationOn className="text-3xl " />
           <p className="text-sm"> Saket, New Delhi, 110080</p>
