@@ -8,7 +8,7 @@ export default function Blog() {
       <div className="p-4 shadow-xl text-sm font-medium rounded-2xl bg-white">
         <div>
           <h1 className="text-lg font-semibold py-2">
-            We care about your privacy{" "}
+            We care about your privacy
           </h1>
           <hr className="w-1/2 mt-2 mb-2"></hr>
         </div>
