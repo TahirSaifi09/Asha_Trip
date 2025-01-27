@@ -26,7 +26,7 @@ export default function Navbar() {
     },
     {
       page:"About",
-      path:null
+      path:"/about"
     },
     {
       page:"News",
@@ -66,7 +66,7 @@ export default function Navbar() {
 
   return (
     <div className="h-full flex items-center px-10 py-2 bg-[#ECECF2] max-md:px-3 max-xl:px-10 max-md:py-2 max-xl:py-4 relative">
-      <div className="flex justify-between max-md:items-center max-xl:w-full ">
+      <div className="flex justify-between max-sm:h-12 items-center max-xl:w-full ">
         <a href="/" className="w-4/12 max-md:w-2/12 max-xl:w-2/12">
           <img src="logo2.png" alt="logo" className=" "></img>
         </a>
@@ -75,7 +75,7 @@ export default function Navbar() {
             <IoReorderThreeOutline className="text-blue-600 text-5xl max-md:text-4xl xl:hidden" />
           </button>
           {isOpen && (
-            <ul className="absolute top-20 right-0 bg-black z-50  text-white font-medium w-1/2 p-6 xl:hidden">
+            <ul className="absolute top-20 right-0 bg-black z-50  text-white font-medium max-sm:w-full p-6 xl:hidden">
               {links.map((item, i) => (
                 <>
                   <li

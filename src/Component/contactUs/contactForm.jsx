@@ -46,7 +46,7 @@ export default function contactForm() {
               rows="5"
               cols="100"
               required
-              className="w-full mt-4 bg-slate-200 p-4 outline-none rounded placeholder-black "
+              className="w-full mt-4 md:mt-8 bg-slate-200 p-4 outline-none rounded placeholder-black "
             />
           </div>
           <div className="flex justify-end w-full">
