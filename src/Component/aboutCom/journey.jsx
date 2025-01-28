@@ -1,37 +1,62 @@
 import { useState } from "react";
+import { IoClose } from "react-icons/io5";
+import { IoPlayCircleOutline } from "react-icons/io5";
 
 export default function Journey() {
   const [isVideo, setIsVideo] = useState(false);
 
   function handleVideo() {
-    if (isVideo) setIsVideo(false);
-    else setIsVideo(true);
-    console.log("value", isVideo);
+    setIsVideo(!isVideo);
   }
   return (
-    <div className="bg-[#ECECF2] px-20 py-10 flex justify-center">
-      <div className="w-full rounded-2xl h-screen shadow-xl text-center bg-white">
-        <div className="w-full px-80  text-5xl py-8 font-medium">
-          <h4>Where Your Journey Begins with Quality and Reliability</h4>
-          <p className="text-sm font-medium text-gray-500 py-8">
-            Lorem ipsum dolor sit amet consectetur. Nibh vivamus quis risus
-            augue odio eget donec leo phasellus. Auctor est aliquam commodo enim
-            auctor libero. Cras sed sagittis id in ridiculus amet vel euismod.
-            Eu nunc lacus dui natoque. Consequat aenean tristique accumsan
-            dictum augue.
-          </p>
-        </div>
-        <div className="w-full px-10  ">
-          <button onClick={handleVideo}>
+    <>
+      <div className="bg-[#ECECF2] px-20 py-10 flex justify-center">
+        <div className="w-full rounded-2xl h-full py-10 shadow-xl text-center bg-gray-50">
+          <div className="w-full text-5xl">
+            <h4 className=" px-80 font-medium ">Where Your Journey Begins with Quality and Reliability</h4>
+            <p className="text-lg text-gray-700 py-8 px-64">
+              Lorem ipsum dolor sit amet consectetur. Nibh vivamus quis risus
+              augue odio eget donec leo phasellus. Auctor est aliquam commodo
+              enim auctor libero. Cras sed sagittis id in ridiculus amet vel
+              euismod. Eu nunc lacus dui natoque. Consequat aenean tristique
+              accumsan dictum augue.
+            </p>
+          </div>
+          <div className="w-full relative px-10 ">
             <img
               src="blog-banner.png"
               alt="Blog Banner"
               className="rounded-3xl"
             />
-          </button>
-          <video src="airline-ad.mp4" alt="airline-ad" className='${isVideo? "flex" : "hidden"}'></video>
+            <button
+              onClick={handleVideo}
+              className="absolute text-white text-8xl transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            >
+              <IoPlayCircleOutline className="" />
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+
+      {isVideo && (
+        <div className="fixed inset-0 z-40 bg-black bg-opacity-50 flex items-center flex-col justify-center">
+          <div className="max-w-4xl bg-white px-10 py-5 rounded-xl">
+            <div className="flex items-end justify-between text-3xl font-medium w-full py-4 ">
+              <p>Classical Optical Glasses</p>
+              <IoClose
+                onClick={handleVideo}
+                className="h-5 w-5 cursor-pointer"
+              />
+            </div>
+            <video
+              src="airline-ad.mp4"
+              controls
+              alt="airline-ad"
+              className="rounded-xl"
+            ></video>
+          </div>
+        </div>
+      )}
+    </>
   );
 }

@@ -52,11 +52,11 @@ export default function Sliderpart(){
           <Slider {...settings}>
             <div className="px-4">
               <div className=" bg-gray-100 rounded-lg ">
-                <div className="p-4">
+                <div className="p-4 relative overflow-hidden">
                   <img
                     src="visit-agra.jpg"
                     alt="flight"
-                    className="w-full rounded-lg pb-6"
+                    className="w-full hover:scale-105 duration-300 rounded-lg pb-6"
                   ></img>
                   <h1 className=" font-bold">Delhi to Agra</h1>
                   <p>26 Nov, 2024 - 1 Dec,2024</p>
@@ -74,11 +74,11 @@ export default function Sliderpart(){
             </div>
             <div className="px-4">
               <div className="bg-gray-100 rounded-lg">
-                <div className="p-4">
+                <div className="p-4 relative">
                   <img
                     src="humayun-s-tomb.jpg"
                     alt="flight-1"
-                    className="w-full rounded-lg pb-6"
+                    className="w-full hover:scale-105 duration-300 rounded-lg pb-6"
                   ></img>
                   <h1 className=" font-bold">Noida to Delhi</h1>
                   <p>26 Nov, 2024 - 1 Dec,2024</p>
@@ -96,11 +96,11 @@ export default function Sliderpart(){
             </div>
             <div className="px-4">
               <div className="bg-gray-100 rounded-lg">
-                <div className="p-4">
+                <div className="p-4 relative">
                   <img
                     src="JAIPUR.jpg"
                     alt="flight-3"
-                    className="w-full rounded-lg pb-6"
+                    className="w-full hover:scale-105 duration-300 rounded-lg pb-6"
                   ></img>
                   <h1 className=" font-bold">Delhi to Jaiypur</h1>
                   <p>26 Nov, 2024 - 1 Dec,2024</p>
@@ -118,11 +118,11 @@ export default function Sliderpart(){
             </div>
             <div className="px-4">
               <div className="bg-gray-100 rounded-lg">
-                <div className="p-4">
+                <div className="p-4 relative">
                   <img
                     src="https://uiparadox.co.uk/templates/flynow/v2/assets/media/images/flight-4.png"
                     alt="flight-4"
-                    className="w-full rounded-lg pb-6"
+                    className="w-full hover:scale-105 duration-300 rounded-lg pb-6"
                   ></img>
                   <h1 className=" font-bold">Dubai to Canada</h1>
                   <p>26 Nov, 2024 - 1 Dec,2024</p>
