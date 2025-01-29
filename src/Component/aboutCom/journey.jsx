@@ -13,7 +13,9 @@ export default function Journey() {
       <div className="bg-[#ECECF2] px-20 max-md:px-4 max-lg:px-8 max-xl:px-10 py-10  flex justify-center">
         <div className="w-full rounded-2xl h-full py-10 shadow-xl text-center bg-gray-50">
           <div className="w-full max-sm:text-2xl max-2xl:text-4xl text-5xl">
-            <h4 className=" px-80 max-md:px-2 max-lg:px-8 max-xl:px-40 max-2xl:px-64 font-medium ">Where Your Journey Begins with Quality and Reliability</h4>
+            <h4 className=" px-80 max-md:px-2 max-lg:px-8 max-xl:px-40 max-2xl:px-64 font-medium ">
+              Where Your Journey Begins with Quality and Reliability
+            </h4>
             <p className="text-lg max-xl:text-sm max-2xl:text-base text-gray-700 py-8 max-md:py-5 px-64 max-sm:px-2 max-lg:px-8 max-xl:px-32 max-2xl:px-40">
               Lorem ipsum dolor sit amet consectetur. Nibh vivamus quis risus
               augue odio eget donec leo phasellus. Auctor est aliquam commodo
