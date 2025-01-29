@@ -2,13 +2,23 @@ import Navbar from "../../Component/home_component/navbar";
 import About from "../../Component/aboutCom/firstPage";
 import Journey from "../../Component/aboutCom/journey";
 import OurHistory from "../../Component/aboutCom/ourHistory";
-export default function AboutPage(){
-    return(
-        <div>
-            <Navbar />
-            <About />
-            <Journey />
-            <OurHistory />
-        </div>
-    )
+import ContactUs from "../../Component/home_component/ContactUs";
+import Available from "../../Component/home_component/available";
+import ClientThink from "../../Component/home_component/clientThink";
+import Footer from "../../Component/home_component/footer";
+export default function AboutPage() {
+  return (
+    <div className="bg-gray-200">
+      <Navbar />
+      <About />
+      <Journey />
+      <OurHistory />
+      <ContactUs />
+      <div className="px-4 pt-8">
+        <Available />
+      </div>
+      <ClientThink />
+      <Footer />
+    </div>
+  );
 }

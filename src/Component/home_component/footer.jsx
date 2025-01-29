@@ -8,7 +8,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { Link } from "react-router-dom";
 export default function Footer() {
   return (
-    <footer className="flex justify-between px-20 py-10 max-xl:flex-wrap max-sm:px-4 max-xl:px-8 ">
+    <footer className="flex justify-between bg-white px-20 py-10 max-xl:flex-wrap max-sm:px-4 max-xl:px-8 ">
       <div className="w-1/4 max-xl:w-full">
         <img src="logo2.png" alt="logo" className="w-1/3"/>
         <p className="text-gray-500 py-4">
