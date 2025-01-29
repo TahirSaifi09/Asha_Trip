@@ -10,11 +10,11 @@ export default function Journey() {
   }
   return (
     <>
-      <div className="bg-[#ECECF2] px-20 py-10 flex justify-center">
+      <div className="bg-[#ECECF2] px-20 max-sm:px-4 py-10  flex justify-center">
         <div className="w-full rounded-2xl h-full py-10 shadow-xl text-center bg-gray-50">
-          <div className="w-full text-5xl">
-            <h4 className=" px-80 font-medium ">Where Your Journey Begins with Quality and Reliability</h4>
-            <p className="text-lg text-gray-700 py-8 px-64">
+          <div className="w-full max-sm:text-2xl text-5xl">
+            <h4 className=" px-80 max-sm:px-2 font-medium ">Where Your Journey Begins with Quality and Reliability</h4>
+            <p className="text-lg max-sm:text-sm text-gray-700 py-8 max-sm:py-5 px-64 max-sm:px-2">
               Lorem ipsum dolor sit amet consectetur. Nibh vivamus quis risus
               augue odio eget donec leo phasellus. Auctor est aliquam commodo
               enim auctor libero. Cras sed sagittis id in ridiculus amet vel
@@ -26,13 +26,13 @@ export default function Journey() {
             <img
               src="blog-banner.png"
               alt="Blog Banner"
-              className="rounded-3xl"
+              className="rounded-3xl max-sm:rounded-2xl"
             />
             <button
               onClick={handleVideo}
-              className="absolute text-white text-8xl transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute text-white text-8xl max-sm:text-2xl transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             >
-              <IoPlayCircleOutline className="" />
+              <IoPlayCircleOutline />
             </button>
           </div>
         </div>
