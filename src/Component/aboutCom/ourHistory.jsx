@@ -39,7 +39,7 @@ export default function OurHistory() {
   ]
 
   return (
-    <div className="bg-[#ECECF2] px-20 max-md:px-2 max-lg:px-10 max-xl:px-12 py-5 pb-32 max-xl:pb-20 flex max-xl:flex-wrap w-full gap-8">
+    <div className="bg-[#ECECF2] px-20 max-md:px-2 max-lg:px-10 max-xl:px-12 py-5 flex max-xl:flex-wrap w-full gap-8">
       <div className="bg-gray-50 p-5 max-md:p-3 w-1/2 max-xl:w-full font-medium rounded-2xl">
         <h2 className="text-4xl max-md:text-3xl font-medium ">Our History</h2>
         <h5 className="text-blue-600 text-xl max-md:text-lg font-medium py-2 max-md:py-1">Since 1998</h5>

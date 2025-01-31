@@ -2,8 +2,8 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 export default function ClientThink() {
   return (
-    <div className="w-full px-20 h-full pb-10 bg-gray-200 max-md:px-2 max-xl:px-10 ">
-      <div className="h-full w-full shadow-xl rounded-3xl gap-6 items-center flex p-20 bg-gray-100 max-xl:flex-wrap max-xl:py-8 max-xl:p-4">
+    <div className="w-full px-20 h-full pb-10 max-sm:pb-2 bg-gray-200 max-md:px-2 max-xl:px-10 ">
+      <div className="h-full w-full shadow-md rounded-3xl gap-6 items-center flex p-20 bg-gray-100 max-xl:flex-wrap max-xl:py-8 max-xl:p-4">
         <div className="w-2/4 p-10 max-xl:w-full max-md:p-0 max-xl:p-4">
           <p className="text-blue-600 text-lg">Testimonials</p>
           <h1 className="text-5xl max-sm:text-4xl font-bold py-2">

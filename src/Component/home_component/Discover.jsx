@@ -4,7 +4,7 @@ import { RiHotelFill } from "react-icons/ri";
 export default function Descover() {
   return (
     <div>
-      <div className="w-full p-20 max-lg:p-20 bg-gray-200 max-md:px-2 max-lg:px-10 max-xl:px-12">
+      <div className="w-full p-20 max-lg:p-20 bg-gray-200 max-md:px-2 max-sm:py-4 max-lg:px-10 max-xl:px-12">
         <div className="flex justify-between max-xl:flex-wrap ">
           <h1 className="text-3xl max-sm:text-2xl font-bold">
             Popular Global Travel Destinations
@@ -13,8 +13,8 @@ export default function Descover() {
             Show More
           </button>
         </div>
-        <div className="flex flex-between items-center gap-20 py-10 max-lg:flex-wrap">
-          <div className="max-xl:w-1/2 max-md:px-10 max-lg:w-full">
+        <div className="flex flex-between items-center gap-20 max-lg:gap-6 py-10 max-lg:flex-wrap">
+          <div className="max-xl:w-1/2 max-sm:px-2 max-md:px-10 max-lg:w-full">
             <img src="map.png" alt="map" />
           </div>
           <div className="w-8/12 flex flex-wrap max-lg:w-full max-md:w-full ">
