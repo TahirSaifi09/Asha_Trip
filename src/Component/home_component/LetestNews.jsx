@@ -12,7 +12,7 @@ export default function LetestNews() {
         </button>
       </div>
       <div className=" flex flex-wrap pb-10">
-        <div className="w-1/2 py-4 pr-4 max-xl:w-full max-sm:pr-0">
+        <div className="w-1/2 py-4 pr-4 max-xl:w-full max-xl:pr-0">
           <div className="relative overflow-hidden group">
             <div className="gap-6  max-sm:p-4 p-6 rounded-2xl flex bg-white max-lg:flex-wrap ">
               <div className="w-10/12 max-lg:w-full max-xl:w-6/12 ">

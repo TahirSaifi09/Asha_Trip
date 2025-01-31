@@ -14,7 +14,7 @@ export default function AboutPage() {
       <Journey />
       <OurHistory />
       <ContactUs />
-      <div className="px-4 pt-8">
+      <div className="px-4 max-xl:px-0 max-2xl:px-4 max-lg:px-0 pt-8">
         <Available />
       </div>
       <ClientThink />

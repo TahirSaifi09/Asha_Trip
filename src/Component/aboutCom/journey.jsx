@@ -10,7 +10,7 @@ export default function Journey() {
   }
   return (
     <>
-      <div className="bg-[#ECECF2] px-20 max-md:px-4 max-lg:px-8 max-xl:px-10 py-10  flex justify-center">
+      <div className="bg-[#ECECF2] px-20 max-md:px-2 max-lg:px-10 max-xl:px-12 py-10  flex justify-center">
         <div className="w-full rounded-2xl h-full py-10 shadow-xl text-center bg-gray-50">
           <div className="w-full max-sm:text-2xl max-2xl:text-4xl text-5xl">
             <h4 className=" px-80 max-md:px-2 max-lg:px-8 max-xl:px-40 max-2xl:px-64 font-medium ">

@@ -77,7 +77,7 @@ export default function ShowFlight() {
           </div>
         </div>
       </div>
-      <div className="-translate-y-10">
+      <div className="-translate-y-20">
         <Available />
       </div>
     </div>
