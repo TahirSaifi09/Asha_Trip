@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 export default function BookNow() {
   return (
     <div>
@@ -24,11 +25,11 @@ export default function BookNow() {
                     </div>
                   </div>
                 </div>
-                <div className="max-md:text-center">
+                <Link to="/TripBooking" className="max-md:text-center">
                   <button className=" px-6 py-3 text-sm text-white rounded-lg bg-blue-600 hover:bg-white hover:text-black duration-700 ">
                     Booking Now
                   </button>
-                </div>
+                </Link>
               </div>
               <div className="w-11/12 flex items-center max-md:w-full max-lg:w-9/12">
                 <div className="mt-4 " id="hero-section">

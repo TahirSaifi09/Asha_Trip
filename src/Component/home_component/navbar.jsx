@@ -18,7 +18,7 @@ export default function Navbar() {
     },
     {
       page: "Tour Package",
-      path: "/tourPackage",
+      path: "/tour_package",
     },
     {
       page:"Contact",

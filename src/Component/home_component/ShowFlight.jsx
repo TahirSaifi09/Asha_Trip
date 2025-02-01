@@ -5,7 +5,7 @@ export default function ShowFlight() {
     <div className="h-full w-full bg-[#dedee0] shadow-2xl">
       <div className="flex justify-center h-full px-16 max-xl:px-6 max-sm:px-4 z-50 -translate-y-1/2 ">
         <div className="w-full h-full px-14 max-xl:px-10 py-10 shadow-xl rounded-3xl bg-gray-100 max-sm:px-2 max-md:p-8">
-          <div className="w-full flex h-42 px-5 py-8 rounded bg-slate-200 max-md:h-full max-xl:flex-wrap max-xl:gap-6">
+          <div className="w-full flex h-42 px-5 py-8 rounded items-center bg-slate-200 max-md:h-full max-xl:flex-wrap max-xl:gap-6">
             <div className="flex border-r h-full items-center border-black gap-6 w-2/4 max-xl:w-full max-sm:flex-wrap max-md:gap-3 max-xl:border-none">
               <div className="max-md:w-full max-xl:w-5/12">
                 <label className="text-gray-500 max-sm:text-xl max-sm:font-bold">
@@ -15,7 +15,7 @@ export default function ShowFlight() {
                   <input
                     type="text"
                     placeholder="From"
-                    className="outline-none bg-slate-200 text-gray-500 text-xl max-md:w-5/12 max-sm:w-full"
+                    className="outline-none bg-slate-200 placeholder:text-gray-500 text-xl max-md:w-5/12 max-sm:w-full"
                   ></input>
                 </div>
               </div>
@@ -28,12 +28,12 @@ export default function ShowFlight() {
                   <input
                     type="text"
                     placeholder="To"
-                    className="outline-none bg-slate-200 text-gray-500 text-xl max-sm:w-full "
+                    className="outline-none bg-slate-200 placeholder:text-gray-500 text-xl max-sm:w-full "
                   ></input>
                 </div>
               </div>
             </div>
-            <div className="flex px-5 w-2/4 gap-6 max-md:flex-wrap max-xl:px-0 max-xl:w-full max-md:pt-4">
+            <div className="flex px-5 w-2/4 gap-6 items-center max-md:flex-wrap max-xl:px-0 max-xl:w-full max-md:pt-4">
               <div>
                 <label for="departing" className="text-gray-500">
                   Departing

@@ -28,7 +28,7 @@ export default function Form() {
                 <button className="h-8 w-8 bg-gray-200 text-xl text-center font-medium border rounded-full">
                   3
                 </button>
-                <h1 className="">Finel step</h1>
+                <h1 className="">Final step</h1>
                 <hr className="border-2 w-5/12 max-md:w-1/5 max-xl:w-full max-sm:hidden"></hr>
               </li>
             </ul>
