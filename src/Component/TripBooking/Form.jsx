@@ -52,7 +52,7 @@ export default function Form() {
                     type="text"
                     name="name"
                     placeholder="First Name"
-                    className="outline-none h-full w-full px-4 bg-gray-200 rounded-md border-b-2 border-red-600"
+                    className="outline-none h-full w-full placeholder:text-black px-4 bg-gray-200 rounded-md border-b-2 "
                   />
                 </div>
                 <div className="h-12 w-1/3">
@@ -60,7 +60,7 @@ export default function Form() {
                     type="text"
                     name="name"
                     placeholder="Last Name"
-                    className="outline-none h-full w-full px-4 bg-gray-200 rounded-md"
+                    className="outline-none h-full placeholder:text-black w-full px-4 bg-gray-200 rounded-md"
                   />
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function Form() {
                     type="email"
                     name="email"
                     placeholder="Email"
-                    className="h-full w-full bg-gray-200 px-4 outline-none rounded-md border-b-2 border-red-600"
+                    className="h-full w-full placeholder:text-black bg-gray-200 px-4 outline-none rounded-md border-b-2 "
                   />
                 </div>
                 <div className="h-12 w-1/2 pl-4 my-4">
@@ -90,7 +90,7 @@ export default function Form() {
                     type="tel"
                     name="phone"
                     placeholder="Your Number"
-                    className="h-full w-full bg-gray-200 px-4 outline-none rounded-md border-b-2 border-red-600"
+                    className="h-full w-full placeholder:text-black bg-gray-200 px-4 outline-none rounded-md border-b-2 "
                   />
                 </div>
                 <div className="h-12 w-1/2 pl-4 my-4">
@@ -98,7 +98,7 @@ export default function Form() {
                     type="date"
                     name="date"
                     placeholder="Date of Birth"
-                    className="h-full w-full bg-gray-200 px-4 outline-none rounded-md border-b-2 border-red-600"
+                    className="h-full w-full bg-gray-200 px-4 outline-none rounded-md border-b-2 "
                   />
                 </div>
                 <div className="h-12 w-1/2 pr-4 my-4">
@@ -106,7 +106,7 @@ export default function Form() {
                     type="pin"
                     name="pin"
                     placeholder="Postal Code"
-                    className="h-full w-full bg-gray-200 px-4 outline-none rounded-md border-b-2 border-red-600"
+                    className="h-full w-full placeholder:text-black bg-gray-200 px-4 outline-none rounded-md border-b-2 "
                   />
                 </div>
                 <div className="h-12 w-1/2 pl-4 my-4">
@@ -114,7 +114,7 @@ export default function Form() {
                     type="num"
                     name="num"
                     placeholder="Flight Number"
-                    className="h-full w-full bg-gray-200 px-4 outline-none rounded-md border-b-2 border-red-600"
+                    className="h-full w-full placeholder:text-black bg-gray-200 px-4 outline-none rounded-md border-b-2 "
                   />
                 </div>
               </div>
@@ -174,109 +174,125 @@ export default function Form() {
           </form>
         </div>
         <div className="w-4/12 bg-gray-100 pr-16 py-4">
-        <div>
-          <div className="bg-white rounded-lg shadow-lg">
-            <div className="px-4 py-3 w-full rounded-t-lg bg-slate-300 text-2xl font-medium">
-              <p>Your Booking Details</p>
-            </div>
-            <div className="flex text-center items-center justify-between px-8 py-4">
-              <div className="">
-                <p className="text-lg font-medium">12:00</p>
-                <p className="text-lg font-medium text-gray-500">DUB</p>
+          <div>
+            <div className="bg-white rounded-lg shadow-lg">
+              <div className="px-4 py-3 w-full rounded-t-lg bg-slate-300 text-2xl font-medium">
+                <p>Your Booking Details</p>
               </div>
-              <div className="flex items-center gap-4">
-                <p className="text-sm font-medium">From</p>
-                <div className="flex flex-col items-center">
-                  <p>0h 50m</p>
-                  <img src="route-plan.png" alt="plan "></img>
-                  <p className="text-sm font-medium">1 Stop</p>
+              <div className="flex text-center items-center justify-between px-8 py-4">
+                <div className="">
+                  <p className="text-lg font-medium">12:00</p>
+                  <p className="text-lg font-medium text-gray-500">DUB</p>
                 </div>
-                <p className="text-sm font-medium">To</p>
+                <div className="flex items-center gap-4">
+                  <p className="text-sm font-medium">From</p>
+                  <div className="flex flex-col items-center">
+                    <p>0h 50m</p>
+                    <img src="route-plan.png" alt="plan "></img>
+                    <p className="text-sm font-medium">1 Stop</p>
+                  </div>
+                  <p className="text-sm font-medium">To</p>
+                </div>
+                <div>
+                  <p className="text-lg font-medium">12:50</p>
+                  <p className="text-lg font-medium text-gray-500">SHJ</p>
+                </div>
               </div>
-              <div>
-                <p className="text-lg font-medium">12:50</p>
-                <p className="text-lg font-medium text-gray-500">SHJ</p>
+              <div className="flex justify-between px-8 pb-8 py-2">
+                <div className="py-2">
+                  <p className="text-sm font-medium text-gray-500 ">
+                    Departure
+                  </p>
+                  <p className="text-lg font-medium">14 Aug, 2023</p>
+                </div>
+                <div className="w-[1px] border-l-2 border-gray-500"></div>
+                <div className="py-2">
+                  <p className="text-sm font-medium text-gray-500">Arrival</p>
+                  <p className="text-lg font-medium">14 Aug, 2023</p>
+                </div>
               </div>
-            </div>
-            <div className="flex justify-between px-8 pb-8 py-2">
-              <div className="py-2">
-                <p className="text-sm font-medium text-gray-500 ">Departure</p>
-                <p className="text-lg font-medium">14 Aug, 2023</p>
+              <div className="px-4">
+                <hr className="border-gray-400 "></hr>
               </div>
-              <div className="w-[1px] border-l-2 border-gray-500"></div>
-              <div className="py-2">
-                <p className="text-sm font-medium text-gray-500">Arrival</p>
-                <p className="text-lg font-medium">14 Aug, 2023</p>
+              <div className="text-sm font-medium text-gray-500 py-8 px-4">
+                <p>Tpm Line</p>
+                <p>Operated by Feel Dubai Airlines</p>
+                <p>Economy | Flight FK234 | Aircraft BOEING 777-90</p>
+                <p>Adult(s): 25KG luggage free</p>
               </div>
-            </div>
-            <div className="px-4">
-            <hr className="border-gray-400 "></hr>
-            </div>
-            <div className="text-sm font-medium text-gray-500 py-8 px-4">
-              <p>Tpm Line</p>
-              <p>Operated by Feel Dubai Airlines</p>
-              <p>Economy | Flight FK234 | Aircraft BOEING 777-90</p>
-              <p>Adult(s): 25KG luggage free</p>
             </div>
           </div>
-        </div>
-        <div>
-          <div className="bg-white rounded-lg shadow-lg mt-8">
-            <div className="px-4 py-3 w-full rounded-t-lg bg-slate-300 text-2xl font-medium">
-              <p>Price Summary</p>
-            </div>
-            <div className="flex justify-between px-8 py-4">
-              <div className="">
-                <p>Adult x 1</p>
-                <p className="text-sm font-medium text-gray-500">Lorem ipsum dolor sit amet consectetur.</p>
+          <div>
+            <div className="bg-white rounded-lg shadow-lg mt-8">
+              <div className="px-4 py-3 w-full rounded-t-lg bg-slate-300 text-2xl font-medium">
+                <p>Price Summary</p>
               </div>
-              <div>
-                <p className="text-lg font-medium">$540</p>
+              <div className="flex justify-between px-8 py-4">
+                <div className="">
+                  <p>Adult x 1</p>
+                  <p className="text-sm font-medium text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                </div>
+                <div>
+                  <p className="text-lg font-medium">$540</p>
+                </div>
               </div>
-            </div><div className="flex justify-between px-8 py-4">
-              <div className="">
-                <p>Room Service</p>
-                <p className="text-sm font-medium text-gray-500">Lorem ipsum dolor sit amet consectetur.</p>
+              <div className="flex justify-between px-8 py-4">
+                <div className="">
+                  <p>Room Service</p>
+                  <p className="text-sm font-medium text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                </div>
+                <div>
+                  <p className="text-lg font-medium">$50</p>
+                </div>
               </div>
-              <div>
-                <p className="text-lg font-medium">$50</p>
+              <div className="flex justify-between px-8 py-4">
+                <div className="">
+                  <p>Gym Fee</p>
+                  <p className="text-sm font-medium text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                </div>
+                <div>
+                  <p className="text-lg font-medium">$30</p>
+                </div>
               </div>
-            </div><div className="flex justify-between px-8 py-4">
-              <div className="">
-                <p>Gym Fee</p>
-                <p className="text-sm font-medium text-gray-500">Lorem ipsum dolor sit amet consectetur.</p>
+              <div className="flex justify-between px-8 py-4">
+                <div className="">
+                  <p>Service Charges</p>
+                  <p className="text-sm font-medium text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                </div>
+                <div>
+                  <p className="text-lg font-medium">$20</p>
+                </div>
               </div>
-              <div>
-                <p className="text-lg font-medium">$30</p>
+              <div className="flex justify-between px-8 py-4">
+                <div className="">
+                  <p>Sub Total</p>
+                  <p className="text-sm font-medium text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                </div>
+                <div>
+                  <p className="text-lg font-medium">$640</p>
+                </div>
               </div>
-            </div><div className="flex justify-between px-8 py-4">
-              <div className="">
-                <p>Service Charges</p>
-                <p className="text-sm font-medium text-gray-500">Lorem ipsum dolor sit amet consectetur.</p>
+              <hr className="border-gray-400"></hr>
+              <div className="flex text-2xl font-medium justify-between p-8 ">
+                <p>Deal / Discount</p>
+                <p>$40</p>
               </div>
-              <div>
-                <p className="text-lg font-medium">$20</p>
+              <div className="flex text-2xl font-medium justify-between pb-8 px-8 ">
+                <p>Total</p>
+                <p>$600</p>
               </div>
-            </div><div className="flex justify-between px-8 py-4">
-              <div className="">
-                <p>Sub Total</p>
-                <p className="text-sm font-medium text-gray-500">Lorem ipsum dolor sit amet consectetur.</p>
-              </div>
-              <div>
-                <p className="text-lg font-medium">$640</p>
-              </div>
-            </div>
-            <hr className="border-gray-400"></hr>
-            <div className="flex text-2xl font-medium justify-between p-8 ">
-              <p>Deal / Discount</p>
-              <p>$40</p>
-            </div>
-            <div className="flex text-2xl font-medium justify-between pb-8 px-8 ">
-              <p>Total</p>
-              <p>$600</p>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <footer className="flex justify-between bg-white px-20 py-10 max-xl:flex-wrap max-sm:px-4 max-xl:px-8 ">
       <div className="w-1/4 max-xl:w-full">
-        <img src="logo2.png" alt="logo" className="w-1/3"/>
+        <img src="logo2.png" alt="logo" className="w-1/3 max-xl:w-1/5"/>
         <p className="text-gray-500 py-4">
           Lorem ipsum dolor sit amet consectetur. Aliquet vulputate augue
           penatibus in libero et id aliquam. In ridiculus pretium est velit
@@ -49,16 +49,16 @@ export default function Footer() {
         <p className="text-2xl font-medium max-xl:mt-4">Useful Links</p>
         <ul className="text-sm">
           <li className="pt-4 py-4">
-            <Link to="#">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="#">Blogs</Link>
           </li>
           <li className="py-4">
-            <Link to="#">About</Link>
+            <Link to="about">About</Link>
           </li>
           <li>
-            <Link to="#">Contact Us</Link>
+            <Link to="contact">Contact Us</Link>
           </li>
         </ul>
       </div>
