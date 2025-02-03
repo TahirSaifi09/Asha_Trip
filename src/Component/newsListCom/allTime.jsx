@@ -53,11 +53,21 @@ export default function AllTime() {
         "Roaming with Purpose: Traveling Responsibly and Sustainably",
       para: "Lorem ipsum dolor sit amet consectetur. Feugiat sit eleifend tortor lectus adipiscing aliquam.",
     },
+    {
+      photo: "blog-6.png",
+      userIcon: <CiUser />,
+      userName: "Malisa John",
+      calendarIcon: <LuCalendarDays />,
+      date: "08 Aug, 2023",
+      roamingText:
+        "Roaming with Purpose: Traveling Responsibly and Sustainably",
+      para: "Lorem ipsum dolor sit amet consectetur. Feugiat sit eleifend tortor lectus adipiscing aliquam.",
+    },
   ];
 
   return (
-    <div className="bg-gray-200">
-      <div className="text-3xl font-medium flex justify-center gap-4 mt-4 bg-white w-2/3 items-center">
+    <div className="bg-gray-200 py-4">
+      <div className="text-3xl font-medium flex justify-center gap-4  bg-white w-2/3 items-center">
         <button className="bg-blue-600 px-8 py-4 text-white hover:bg-white hover:text-black duration-700 shadow-md">
           All Time
         </button>
@@ -76,20 +86,22 @@ export default function AllTime() {
         </button>
       </div>
 
-      <div>
-        <img src="blog-2.png" alt="blog2" />
-        <div></div>
-      </div>
-
-      <div className="bg-white w-1/3 flex flex-wrap">
+      <div className="bg-white w-1/3 flex flex-wrap mt-4">
         {list.map((item, index) => (
           <div key={item} className="p-4">
             <img src={item.photo} alt="blogs" className="rounded-xl" />
-            <div className="flex items-center gap-4 text-xl py-3">
-              {item.userIcon} {item.userName} | {item.calendarIcon} {item.date}
+            <div className="flex items-center gap-6 text-xl text-gray-500 py-3">
+              <div className="flex items-center gap-2">
+                {item.userIcon} {item.userName}
+              </div>
+              <div className="font-m text-3xl">|</div>
+              
+              <div className="flex items-center gap-2">
+                {item.calendarIcon} {item.date}
+              </div>
             </div>
             <div className="text-xl font-medium pr-20 py-3">
-            {item.roamingText}
+              {item.roamingText}
             </div>
             {item.para}
           </div>
