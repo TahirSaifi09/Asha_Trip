@@ -30,7 +30,7 @@ export default function Navbar() {
     },
     {
       page:"News",
-      path:null
+      path:"/news_Listing"
     },
   ];
 

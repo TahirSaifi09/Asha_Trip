@@ -5,6 +5,7 @@ import TourPackage from "./Pages/TourPackage";
 import PrivacyPage from "./Pages/Page/PrivacyPage";
 import ContactUs from "./Pages/Page/contactUs";
 import About from "./Pages/about/index";
+import NewsListing from "./Pages/News/newsListing";
 function App() {
   return (
     <BrowserRouter>
@@ -15,6 +16,7 @@ function App() {
         <Route path="/privacyPage" element={<PrivacyPage/>}/>
         <Route path="/contact" element={<ContactUs/>}/>
         <Route path="/about" element={<About />}/>
+        <Route path="/news_Listing" element={<NewsListing/>}/>
       </Routes>
     </BrowserRouter>
   );
