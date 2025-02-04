@@ -96,10 +96,11 @@ export default function AllTime() {
         {list.map((item, index) => (
           <div
             key={index}
-            className="p-4 mt-4 w-[32%] max-md:w-full max-lg:w-[48%] rounded-xl h-full bg-white"
+            className="p-4 mt-4 w-[32%] max-md:w-full max-lg:w-[48%] max-xl:w-full max-xl:flex max-lg:flex-wrap max-lg:gap-0 max-xl:gap-8 rounded-xl h-full bg-white"
           >
-            <img src={item.photo} alt="blogs" className="rounded-xl" />
-            <div className="flex max-sm:text-sm text-center items-center gap-6 max-sm:gap-4 text-xl text-gray-500 py-3">
+            <img src={item.photo} alt="blogs" className="rounded-xl max-lg:w-full max-xl:w-1/2" />
+            <div>
+            <div className="flex max-sm:text-sm max-lg:text-xl max-lg:gap-2 text-center items-center gap-6 max-sm:gap-4 text-xl text-gray-500 py-3">
               <div className="flex  items-center gap-2">
                 {item.userIcon} {item.userName}
               </div>
@@ -119,6 +120,7 @@ export default function AllTime() {
               <button className="font-medium bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-white hover:text-black duration-700 shadow-lg">
                 Read More
               </button>
+            </div>
             </div>
           </div>
         ))}
