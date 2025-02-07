@@ -32,16 +32,16 @@ export default function Footer() {
         <p className="text-2xl font-medium max-xl:mt-4">Booking</p>
         <ul className="text-sm">
           <li className="pt-4 py-4">
-            <Link to="#">Book Trip</Link>
+            <Link to="/trip_booking">Book Trip</Link>
           </li>
           <li>
-            <Link to="#">Travel Services</Link>
+            <Link to="/tour_package">Travel Services</Link>
           </li>
           <li className="py-4">
             <Link to="#">Transportation</Link>
           </li>
           <li>
-            <Link to="#">Planning Your Trip</Link>
+            <Link to="/tour_package">Planning Your Trip</Link>
           </li>
         </ul>
       </div>
@@ -52,13 +52,13 @@ export default function Footer() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="#">Blogs</Link>
+            <Link to="/news_listing">Blogs</Link>
           </li>
           <li className="py-4">
-            <Link to="about">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="contact">Contact Us</Link>
+            <Link to="/contact">Contact Us</Link>
           </li>
         </ul>
       </div>
@@ -66,10 +66,10 @@ export default function Footer() {
         <p className="text-2xl font-medium max-xl:mt-4">Booking</p>
         <ul className="text-sm">
           <li className="pt-4 py-4">
-            <Link to="#">Check-in</Link>
+            <Link to="/trip_booking">Check-in</Link>
           </li>
           <li>
-            <Link to="#">Manage Your Booking</Link>
+            <Link to="/tour_package">Manage Your Booking</Link>
           </li>
           <li className="py-4">
             <Link to="#">Chaurfeur Drive</Link>
