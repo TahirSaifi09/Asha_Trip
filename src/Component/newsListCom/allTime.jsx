@@ -96,12 +96,12 @@ export default function AllTime() {
         {list.map((item, index) => (
           <div
             key={index}
-            className="p-4 mt-4 w-[32%] max-md:w-full max-lg:w-[48%] max-xl:w-full max-xl:flex max-lg:flex-wrap max-lg:gap-0 max-xl:gap-8 rounded-xl h-full bg-white"
+            className="p-4 mt-4 w-[32%] max-md:w-full max-lg:w-[48%] max-xl:w-full max-xl:flex max-lg:flex-wrap max-lg:gap-0 max-xl:gap-8 rounded-xl h-full bg-white group relative"
           >
             <img
               src={item.photo}
               alt="blogs"
-              className="rounded-xl max-lg:w-full max-xl:w-1/2"
+              className="rounded-xl max-lg:w-full group-hover:scale-105 duration-300 max-xl:w-1/2"
             />
             <div>
               <div className="flex max-sm:text-sm max-lg:text-xl max-lg:gap-2 text-center items-center gap-6 max-sm:gap-4 text-xl text-gray-500 py-3">
@@ -129,11 +129,11 @@ export default function AllTime() {
           </div>
         ))}
         <div className="w-full flex pb-8 justify-center">
-        <ul className="flex gap-6 items-center ">
-          <li className="px-6 py-2 bg-blue-500 rounded-xl text-white hover:bg-white hover:text-black">1</li>
-          <li className="px-6 py-2 rounded-xl bg-slate-100 shadow-lg hover:text-white hover:bg-blue-500 duration-700 text-black">2</li>
-          <li className="px-6 py-2 rounded-xl bg-slate-100 shadow-lg hover:text-white hover:bg-blue-500 duration-700 text-black">3</li>
-          <li className="px-6 py-2 rounded-xl bg-slate-100 shadow-lg hover:text-white hover:bg-blue-500 duration-700 text-black">4</li>
+        <ul className="flex gap-6 relative items-center ">
+          <li className="px-6 py-2 bg-blue-500 rounded-xl text-white hover:scale-110 duration-300 hover:bg-white hover:text-black">1</li>
+          <li className="px-6 py-2 rounded-xl bg-slate-100 shadow-lg hover:scale-110 hover:text-white hover:bg-blue-500 duration-700 text-black">2</li>
+          <li className="px-6 py-2 rounded-xl bg-slate-100 shadow-lg hover:scale-110 hover:text-white hover:bg-blue-500 duration-700 text-black">3</li>
+          <li className="px-6 py-2 rounded-xl bg-slate-100 shadow-lg hover:scale-110 hover:text-white hover:bg-blue-500 duration-700 text-black">4</li>
         </ul>
         </div>
       </div>

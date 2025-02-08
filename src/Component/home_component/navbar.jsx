@@ -10,6 +10,7 @@ export default function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [isSearch, setIsSearch] = useState(false)
+  const [isNews, setIsNews] = useState(false)
 
   const links = [
     {
@@ -30,7 +31,18 @@ export default function Navbar() {
     },
     {
       page:"News",
-      path:"/news_Listing"
+      path:null,
+      isDropDown: true,
+      items:[
+        {
+          page:"News Listing",
+          path:"/news_listing"
+        },
+        {
+          page:"News Details",
+          path:"/new_details",
+        },
+      ], 
     },
   ];
 
@@ -58,6 +70,10 @@ export default function Navbar() {
   else
   setIsSearch(true);
   console.log("value:", isSearch);
+}
+
+function forNews(){
+  setIsNews(true)
 }
 
 
