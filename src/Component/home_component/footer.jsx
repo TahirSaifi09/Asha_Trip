@@ -17,7 +17,7 @@ export default function Footer() {
           euismod.
         </p>
         <p>Subscribe to our special offers</p>
-        <div className="h-12  gap-3 flex max-sm:flex-wrap justify-between max-sm:px-0 max-sm:pr-2 max-lg:px-4 border-black items-center px-1 mt-4 rounded-lg bg-slate-200 max-xl:gap-2 ">
+        <div className="h-12 gap-3 flex max-sm:flex-wrap justify-between max-sm:px-2 max-lg:px-4 border-black items-center px-1 mt-4 rounded-lg bg-slate-200 max-xl:gap-2 ">
           <input
             type="text"
             name="email"
