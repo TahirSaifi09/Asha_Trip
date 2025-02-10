@@ -5,7 +5,7 @@ import { BiTrip } from "react-icons/bi";
 export default function Available() {
   return (
     
-      <div className="px-16 py-8 flex justify-between max-lg:flex-wrap max-md:px-6 max-md:gap-3 max-2xl:gap-8 max-xl:px-10 -translate-y-6 max-sm:-translate-y-24">
+      <div className="px-16 py-8 flex justify-between max-lg:flex-wrap max-md:px-4 max-md:gap-3 max-2xl:gap-8 max-xl:px-10 -translate-y-6 max-sm:-translate-y-24">
         <div className="flex px-14 gap-2 py-5 shadow-lg rounded-lg bg-gray-100 max-xl:px-2 max-2xl:px-5 max-xl:w-full items-center max-xl:justify-center ">
           <AiOutlineComment className="text-5xl text-blue-600" /> 
           <div className="">
