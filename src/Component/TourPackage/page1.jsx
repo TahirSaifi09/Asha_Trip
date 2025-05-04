@@ -7,7 +7,7 @@ export default function Page1() {
           <h1 className="text-center text-5xl max-sm:text-2xl font-bold w-1/3">
             Tour Package
           </h1>
-          <img src="/Location.png" alt="plan" className="w-1/4 max-sm:w-1/4 max-sm: bg-slate-200" />
+          <img src="/location.png" alt="plan" className="w-1/4 max-sm:w-1/4 max-sm: bg-slate-200" />
         </div>
       </div>
     </div>
