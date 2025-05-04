@@ -10,7 +10,6 @@ export default function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [isSearch, setIsSearch] = useState(false)
-  const [isNews, setIsNews] = useState(false)
 
   const links = [
     {
@@ -72,9 +71,6 @@ export default function Navbar() {
   console.log("value:", isSearch);
 }
 
-function forNews(){
-  setIsNews(true)
-}
 
 
   const location = useLocation();
