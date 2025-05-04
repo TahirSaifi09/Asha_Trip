@@ -12,8 +12,8 @@ export default function FirstPage() {
             About Us
           </h1>
           <img
-            src="Location.png"
-            alt="plan"
+            src="location.png"
+            alt="Trip"
             className="w-1/4 max-sm:w-1/4 bg-slate-200"
           />
         </div>
