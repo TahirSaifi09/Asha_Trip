@@ -5,8 +5,8 @@ export default function BookNow() {
       <div className=" h-screen  bgImg">
         <div className="cloudImg h-[200px]">
           <div className="w-full top-24 relative px-20 text-5xl font-bold max-sm:px-2 max-sm:top-2 max-lg:top-4 max-md:top-0 max-md:px-6 max-lg:px-4">
-            <div className="flex justify-between max-md:flex-wrap ">
-              <div className="w-2/6 max-md:w-full max-md:px-2">
+            <div className="flex justify-between max-md:flex-wrap max-sm:gap-6">
+              <div className="w-2/6 max-md:w-full max-md:text-center max-md:px-2">
                 <img
                   src="logo2.png"
                   alt="logo"

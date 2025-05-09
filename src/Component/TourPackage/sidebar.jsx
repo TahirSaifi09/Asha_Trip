@@ -18,7 +18,7 @@ export default function SideBar() {
 
   return (
     <div className="bg-slate-100 ">
-      <div className="px-16 py-10 flex justify-between max-lg:flex-wrap max-sm:px-2 max-md:gap-3 max-2xl:gap-8 max-xl:px-14 max-md:px-6">
+      <div className="px-16 py-10 flex justify-between max-lg:flex-wrap max-sm:px-2 max-md:gap-3 max-2xl:gap-8 max-xl:px-14 max-lg:px-4">
         <div className="flex px-14 gap-2 py-5 shadow-lg rounded-lg bg-gray-100 max-xl:px-2 max-2xl:px-5 max-xl:w-full items-center max-xl:justify-center ">
           <div className="flex gap-4">
             <SiTicktick className="text-4xl text-center text-blue-600 " />
@@ -64,7 +64,7 @@ export default function SideBar() {
                       type="text"
                       name="search"
                       placeholder="Search"
-                      className="outline-none h-full w-full bg-slate-200"
+                      className="outline-none placeholder:text-gray-600 h-full w-full bg-slate-200"
                     />
                   </div>
                 </div>
@@ -314,7 +314,7 @@ export default function SideBar() {
                     <span className="text-4xl inline font-medium">$500.00</span>
                     <p className="text-sm inline font-medium">/person</p>
                     <p className="text-sm font-medium">Total $550.40</p>
-                    <Link to="/TripBooking">
+                    <Link to="/trip_booking">
                       <button className="bg-blue-600 text-white text-sm font-medium shadow-lg rounded-lg hover:text-black hover:bg-white duration-700 px-10 w-full py-3 mt-6">
                         Select
                       </button>
@@ -392,7 +392,7 @@ export default function SideBar() {
                     <span className="text-4xl inline font-medium">$500.00</span>
                     <p className="text-sm inline font-medium">/person</p>
                     <p className="text-sm font-medium">Total $550.40</p>
-                    <Link to="/TripBooking">
+                    <Link to="/trip_booking">
                       <button className="bg-blue-600 text-white text-sm font-medium shadow-lg rounded-lg hover:text-black hover:bg-white duration-700 px-10 w-full py-3 mt-6">
                         Select
                       </button>
@@ -470,7 +470,7 @@ export default function SideBar() {
                     <span className="text-4xl inline font-medium">$500.00</span>
                     <p className="text-sm inline font-medium">/person</p>
                     <p className="text-sm font-medium">Total $550.40</p>
-                    <Link to="/TripBooking">
+                    <Link to="/trip_booking">
                       <button className="bg-blue-600 text-white text-sm font-medium shadow-lg rounded-lg hover:text-black hover:bg-white duration-700 px-10 w-full py-3 mt-6">
                         Select
                       </button>
@@ -548,7 +548,7 @@ export default function SideBar() {
                     <span className="text-4xl inline font-medium">$500.00</span>
                     <p className="text-sm inline font-medium">/person</p>
                     <p className="text-sm font-medium">Total $550.40</p>
-                    <Link to="/TripBooking">
+                    <Link to="/trip_booking">
                       <button className="bg-blue-600 text-white text-sm font-medium shadow-lg rounded-lg hover:text-black hover:bg-white duration-700 px-10 w-full py-3 mt-6">
                         Select
                       </button>
@@ -626,7 +626,7 @@ export default function SideBar() {
                     <span className="text-4xl inline font-medium">$500.00</span>
                     <p className="text-sm inline font-medium">/person</p>
                     <p className="text-sm font-medium">Total $550.40</p>
-                    <Link to="/TripBooking">
+                    <Link to="/trip_booking">
                       <button className="bg-blue-600 text-white text-sm font-medium shadow-lg rounded-lg hover:text-black hover:bg-white duration-700 px-10 w-full py-3 mt-6">
                         Select
                       </button>
@@ -704,7 +704,7 @@ export default function SideBar() {
                     <span className="text-4xl inline font-medium">$500.00</span>
                     <p className="text-sm inline font-medium">/person</p>
                     <p className="text-sm font-medium">Total $550.40</p>
-                    <Link to="/TripBooking">
+                    <Link to="/trip_booking">
                       <button className="bg-blue-600 text-white text-sm font-medium shadow-lg rounded-lg hover:text-black hover:bg-white duration-700 px-10 w-full py-3 mt-6">
                         Select
                       </button>

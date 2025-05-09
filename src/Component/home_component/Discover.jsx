@@ -19,7 +19,7 @@ export default function Descover() {
           </div>
           <div className="w-8/12 flex flex-wrap max-lg:w-full max-md:w-full ">
             <div className="w-1/2 relative group overflow-hidden pt-8 pr-4 max-md:w-full max-md:pr-0 sm:w-1/2 sm:pr-2">
-              <div className="p-4 shadow-lg rounded-lg bg-white md:p-2">
+              <div className="p-4 rounded-lg bg-white md:p-2">
                 <img src="hawa-mahal-of-rajasthan-photo.jpg" alt="image-1" className="group-hover:scale-105 duration-300 rounded-lg" />
                 <p className="font-bold pt-4">Hawa Mahal</p>
                 <div className="flex gap-2 py-2 text-gray-500 items-center md:text-sm">
@@ -34,7 +34,7 @@ export default function Descover() {
               </div>
             </div>
             <div className="w-1/2 relative group overflow-hidden pt-8 pl-4 max-md:w-full max-md:pl-0 sm:w-1/2 sm:pl-2">
-              <div className="p-4 shadow-lg rounded-lg bg-white md:p-2">
+              <div className="p-4 rounded-lg bg-white md:p-2">
                 <img src="KASHMIR1.jpg" alt="image-2" className="rounded-lg group-hover:scale-105 duration-300"/>
                 <p className="font-bold pt-4">Gulmarg Gondola </p>
                 <div className="flex gap-2 py-2 text-gray-500 items-center md:text-sm">
@@ -49,7 +49,7 @@ export default function Descover() {
               </div>
             </div>
             <div className="w-1/2 relative group overflow-hidden pt-8 pr-4 max-sm:w-full max-md:pr-0 sm:w-1/2 sm:pr-2">
-              <div className="p-4 shadow-lg rounded-lg bg-white text-sm md:p-2">
+              <div className="p-4 rounded-lg bg-white text-sm md:p-2">
                 <img src="Taj Mahal.jpg" alt="image-3" className="rounded-lg group-hover:scale-105 duration-300" />
                 <p className="font-bold pt-4">Agra</p>
                 <div className="flex gap-2 py-2 text-gray-500 items-center md:text-sm">
@@ -64,7 +64,7 @@ export default function Descover() {
               </div>
             </div>
             <div className="w-1/2 relative group overflow-hidden pt-8 pl-4 max-sm:w-full max-md:pl-0 sm:w-1/2 sm:pl-2">
-              <div className="p-4 shadow-lg rounded-lg bg-white md:p-2">
+              <div className="p-4 rounded-lg bg-white md:p-2">
                 <img src="Maharastra.jpg" alt="image-4" className="rounded-lg group-hover:scale-105 duration-300" />
                 <p className="font-bold pt-4">Mumbai Maharashtra</p>
                 <div className="flex gap-2 py-2 text-gray-500 items-center md:text-sm md:gap-0">

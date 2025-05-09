@@ -9,7 +9,7 @@ import BookNow from "../../Component/home_component/BookNow";
 import Discover from "../../Component/home_component/Discover";
 import ContactUs from "../../Component/home_component/ContactUs";
 import LetestNews from "../../Component/home_component/LetestNews";
-import Available from "../../Component/home_component/available";
+// import Available from "../../Component/home_component/available";
 import ClientThink from "../../Component/home_component/clientThink";
 export default function FlyNow() {
   return (

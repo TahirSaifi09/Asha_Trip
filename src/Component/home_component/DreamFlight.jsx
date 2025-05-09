@@ -7,7 +7,7 @@ export default function DreamFlight() {
           <div className="inline-block flax text-5xl font-bold max-sm:w-full max-md:text-4xl max-sm:flex-wrap">
             <h1>
               <p className="text-blue-500 inline-block">Book</p> Your Dream
-              <p className="text-blue-500 inline-block mt-2">Flight</p>
+              <p className="text-blue-500 inline-block mt-2">Trip</p>
               <p className="mt-2 inline"> Now!</p>
             </h1>
           </div>
